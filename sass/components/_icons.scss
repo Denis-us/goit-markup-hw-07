@@ -6,7 +6,7 @@
 
 .closer-icon {
     fill: #000000;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill $animation-duration $animation-type;
 }
 
 .button-closer:focus-within .closer-icon,
@@ -31,7 +31,7 @@
     & .icon-input {
         fill:currentColor;
         color: $main-text-color;
-        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: $animation-duration $animation-type;
     }
 }
 
@@ -44,7 +44,7 @@
     border: 2px solid $main-text-color;
     background-color: $main-bg-color;
     border-radius: 2px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $animation-duration $animation-type;
 }
 
 .qualit-ico {
@@ -72,7 +72,7 @@
     fill: currentColor;
     border-radius: 50%;
 
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $animation-duration $animation-type;
 }
 
 .icon-spec:not(:last-child) {
@@ -86,7 +86,7 @@
 .icon-spec:focus .footer-icon {
     color: $main-bg-color;
     background-color: $accent-color;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $animation-duration $animation-type;
 }
 
 .footer-icon {

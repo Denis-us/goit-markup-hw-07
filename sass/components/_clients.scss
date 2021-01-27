@@ -22,7 +22,7 @@
     margin-bottom: 30px;
     background-color: $main-bg-color;
 
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border $animation-duration $animation-type;
 
     &:not(:last-child) {
         margin-right: 30px;
@@ -42,7 +42,7 @@
     width: 170px;
     height: 90px;
 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color $animation-duration $animation-type;
     
     .client {
         display: flex;
@@ -50,7 +50,7 @@
         align-items: center;
         fill: currentColor;
     
-        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: $animation-duration $animation-type;
     }
 
     &:hover .client,
