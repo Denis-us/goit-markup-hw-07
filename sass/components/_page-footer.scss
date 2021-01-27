@@ -1,3 +1,26 @@
+.footer-address {
+    margin-right: 70px;
+
+    p {
+        display: block;
+    
+        color: $main-bg-color;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+    
+        margin-top: 20px;
+        margin-bottom: 9px;
+    }
+
+    a {
+        display: block;
+        margin-bottom: 9px;
+    }
+}
+
 footer {
     background-color: $third-bg-color;
 
